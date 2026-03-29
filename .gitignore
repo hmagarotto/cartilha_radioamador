@@ -5,6 +5,7 @@ output
 # build artifacts
 Gemfile.lock
 src/preface/contributors.txt
+src/preface/contributors-version.txt
 cartilha_radioamador*.pdf
 cartilha_radioamador*.mobi
 cartilha_radioamador*.epub

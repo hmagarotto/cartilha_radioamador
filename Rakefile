@@ -2,6 +2,8 @@ namespace :book do
 
   BOOK_FILE_NAME = 'cartilha_radioamador'
   CONTRIBUTORS_FILE_NAME = 'src/preface/contributors.txt'
+  NON_CODE_CONTRIBUTORS_FILE_NAME = 'src/preface/non-code-contributors.txt'
+  CONTRIBUTORS_VERSION_FILE_NAME = 'src/preface/contributors-version.txt'
 
 
   # Mapeia as variantes do livro para suas respectivas features.
@@ -43,7 +45,7 @@ namespace :book do
   def check_contrib
     if File.exist?(CONTRIBUTORS_FILE_NAME)
       current_head_hash = `git rev-parse --short HEAD`.strip
-      header = `head -n 1 #{CONTRIBUTORS_FILE_NAME}`.strip
+      header = `head -n 1 #{CONTRIBUTORS_VERSION_FILE_NAME}`.strip
       # Match regex, then coerce resulting array to string by join
       header_hash = header.scan(/[a-f0-9]{7,}/).join
 
@@ -52,6 +54,7 @@ namespace :book do
       else
         puts "Hash on header of contributors list (#{header_hash}) does not match the current HEAD (#{current_head_hash}), refreshing"
         sh "rm #{CONTRIBUTORS_FILE_NAME}"
+        sh "rm #{CONTRIBUTORS_VERSION_FILE_NAME}"
         # Reenable and invoke task again
         Rake::Task[CONTRIBUTORS_FILE_NAME].reenable
         Rake::Task[CONTRIBUTORS_FILE_NAME].invoke
@@ -81,8 +84,10 @@ namespace :book do
   desc 'generate contributors list'
   file "#{CONTRIBUTORS_FILE_NAME}" do
       puts 'Generating contributors list'
-      sh "echo 'Contribuidores a partir de #{header_hash}:\n' > #{CONTRIBUTORS_FILE_NAME}"
+      sh "echo -n '#{header_hash}' > #{CONTRIBUTORS_VERSION_FILE_NAME}"
       sh "git shortlog -s HEAD | grep -v -E '(dependabot)' | cut -f 2- | sort | column -c 120 >> #{CONTRIBUTORS_FILE_NAME}"
+      sh "cat #{NON_CODE_CONTRIBUTORS_FILE_NAME} >> #{CONTRIBUTORS_FILE_NAME}"
+      sh "sort -u -o #{CONTRIBUTORS_FILE_NAME} #{CONTRIBUTORS_FILE_NAME}"
   end
 
   desc 'build HTML format'
