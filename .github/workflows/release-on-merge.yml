@@ -56,7 +56,7 @@ jobs:
             cartilha_radioamador_fix.fb2.zip \
             cartilha_radioamador_fix.html \
             cartilha_radioamador_fix.mobi \
-            cartilha_radioamador_fix.pdf
+            cartilha_radioamador_fix.pdf \
             public/
         cp  cartilha_radioamador_ext.html \
             public/index.html
