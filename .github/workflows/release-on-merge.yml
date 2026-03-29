@@ -38,3 +38,52 @@ jobs:
         tag: ${{ steps.compute-tag.outputs.tagname }}
         commit: main
         artifacts: 'cartilha_radioamador.epub,cartilha_radioamador.fb2.zip,cartilha_radioamador.html,cartilha_radioamador.mobi,cartilha_radioamador.pdf,cartilha_radioamador_ext.epub,cartilha_radioamador_ext.fb2.zip,cartilha_radioamador_ext.html,cartilha_radioamador_ext.mobi,cartilha_radioamador_ext.pdf,cartilha_radioamador_fix.epub,cartilha_radioamador_fix.fb2.zip,cartilha_radioamador_fix.html,cartilha_radioamador_fix.mobi,cartilha_radioamador_fix.pdf'
+
+    - name: Create public directory for gh-pages
+      run: |
+        mkdir public
+        cp  cartilha_radioamador.epub \
+            cartilha_radioamador.fb2.zip \
+            cartilha_radioamador.html \
+            cartilha_radioamador.mobi \
+            cartilha_radioamador.pdf \
+            cartilha_radioamador_ext.epub \
+            cartilha_radioamador_ext.fb2.zip \
+            cartilha_radioamador_ext.html \
+            cartilha_radioamador_ext.mobi \
+            cartilha_radioamador_ext.pdf \
+            cartilha_radioamador_fix.epub \
+            cartilha_radioamador_fix.fb2.zip \
+            cartilha_radioamador_fix.html \
+            cartilha_radioamador_fix.mobi \
+            cartilha_radioamador_fix.pdf
+            public/
+        cp  cartilha_radioamador_ext.html \
+            public/index.html
+
+    - name: Upload static files as artifact
+      uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+      with:
+        path: public/
+
+  # Deploy job
+  deploy:
+    # Add a dependency to the build job
+    needs: release
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
