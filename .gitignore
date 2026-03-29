@@ -1,3 +1,12 @@
 **/.env
-original
 output
+.DS_Store
+
+# build artifacts
+Gemfile.lock
+src/preface/contributors.txt
+cartilha_radioamador*.pdf
+cartilha_radioamador*.mobi
+cartilha_radioamador*.epub
+cartilha_radioamador*.html
+cartilha_radioamador*.fb2.zip
