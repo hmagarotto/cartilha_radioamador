@@ -42,7 +42,9 @@ jobs:
     - name: Create public directory for gh-pages
       run: |
         mkdir public
-        cp  cartilha_radioamador.epub \
+        cp  -a \
+            static \
+            cartilha_radioamador.epub \
             cartilha_radioamador.fb2.zip \
             cartilha_radioamador.html \
             cartilha_radioamador.mobi \
