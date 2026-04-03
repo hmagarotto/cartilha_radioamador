@@ -1,0 +1,100 @@
+Uma estação de radioamador é formada basicamente por transmissor, receptor e sistema irradiante?	Certo	_conjunto_funcional_da_estação		
+O transmissor é o componente responsável por receber o sinal de RF da antena e reconstruir a informação?	Errado	_conjunto_funcional_da_estação		
+O transceptor é um equipamento que reúne as funções de transmissor e receptor em um único conjunto?	Certo	_conjunto_funcional_da_estação		
+Ao sintonizar uma estação, o operador geralmente ajusta a frequência da portadora do sinal desejado?	Certo	_conjunto_funcional_da_estação		
+Uma repetidora recebe um sinal em uma frequência e o retransmite na mesma frequência?	Errado	_repetidoras_em_vhfuhf		
+O sistema irradiante de uma estação é composto apenas pela antena?	Errado	_conjunto_funcional_da_estação		
+Nas repetidoras de VHF/UHF, o usuário transmite na frequência de entrada e recebe na frequência de saída da repetidora?	Certo	_repetidoras_em_vhfuhf		
+É uma boa prática escutar a frequência antes de iniciar uma transmissão em uma repetidora?	Certo	_repetidoras_em_vhfuhf		
+Criticar o funcionamento de uma repetidora na própria frequência dela é considerado uma boa prática ética?	Errado	_repetidoras_em_vhfuhf		
+"A operação em ""shift"" ou ""split"" significa transmitir e receber na mesma frequência exata?"	Errado	_operação_shiftsplit		
+Operações com satélites geralmente envolvem o uso de frequências de subida e descida diferentes?	Certo	_operação_shiftsplit		
+"O termo ""shift"" refere-se ao deslocamento entre a frequência de recepção e a de transmissão?"	Certo	_operação_shiftsplit		
+A linha de transmissão tem como função principal irradiar o sinal de rádio para o espaço?	Errado	_linhas_de_transmissão		
+O cabo coaxial é um tipo de linha de transmissão composto por um condutor central e um condutor externo blindado?	Certo	_linhas_de_transmissão		
+A linha paralela (par metálico) é imune a irradiações indesejadas por ser blindada?	Errado	_linhas_de_transmissão		
+Uma vantagem do cabo coaxial é que seus campos de RF são mais confinados, reduzindo a irradiação pela linha?	Certo	_linhas_de_transmissão		
+A medição da potência direta e refletida serve para avaliar a Relação de Onda Estacionária (ROE)?	Certo	_medições_usuais_na_estação		
+O NanoVNA é um equipamento de baixo custo utilizado para caracterização de antenas?	Certo	_medições_usuais_na_estação		
+Tensões e correntes de alimentação inadequadas são causas raras de falhas em equipamentos de radioamador?	Errado	_medições_usuais_na_estação		
+O TinySA é um analisador de espectro que pode ser usado para verificar o espectro irradiado pela estação?	Certo	_medições_usuais_na_estação		
+A função da antena é transformar energia elétrica em ondas eletromagnéticas e vice-versa?	Certo	_função_da_antena_e_da_linha	disable	
+Quando as impedâncias do transmissor, da linha e da antena estão casadas, ocorre a máxima reflexão de energia?	Errado	_função_da_antena_e_da_linha		
+A fórmula prática para calcular o comprimento de onda em metros é λ ≈ 300 / f (em MHz)?	Certo	_comprimento_de_onda_e_tamanho_da_antena		
+Uma antena dipolo de meia onda (λ/2) é comumente utilizada em estações fixas?	Certo	_comprimento_de_onda_e_tamanho_da_antena		
+Antenas do tipo Yagi possuem baixa diretividade, irradiando sinal para todas as direções igualmente?	Errado	_comprimento_de_onda_e_tamanho_da_antena		
+O ganho de uma antena mede quão concentrada é a radiação em uma determinada direção em comparação com uma referência?	Certo	_ganho_e_diretividade		
+Antenas omnidirecionais concentram a energia em um feixe estreito no plano horizontal?	Errado	_ganho_e_diretividade		
+A Relação de Onda Estacionária (ROE) próxima de 1:1 indica um bom casamento de impedância?	Certo	_onda_estacionária_e_casamento_de_impedância		
+Uma ROE alta indica que pouca energia está sendo refletida de volta ao transmissor?	Errado	_onda_estacionária_e_casamento_de_impedância		
+A carga fantasma (antena artificial) é usada para irradiar o sinal o mais longe possível durante testes?	Errado	_antena_artificial_ou_fantasma_carga_fictícia		
+A carga fantasma permite ajustar o transmissor sem causar interferências em outras estações?	Certo	_antena_artificial_ou_fantasma_carga_fictícia		
+Frequência é o número de ciclos por segundo, medido em Hertz (Hz)?	Certo	_conceitos_básicos		
+O período (T) de uma onda é o tempo necessário para completar um ciclo?	Certo	_conceitos_básicos		
+Ondas de rádio na faixa de HF (3-30 MHz) são também chamadas de ondas métricas?	Errado	_faixas_de_frequência_e_designações		
+A faixa de VHF compreende as frequências entre 30 MHz e 300 MHz?	Certo	_faixas_de_frequência_e_designações		
+A audição humana típica percebe sons na faixa de 3 MHz a 30 MHz?	Errado	_faixas_de_frequência_e_designações		
+A modulação é o processo de imprimir a mensagem (informação) em uma portadora de rádio?	Certo	_mensagem_portadora_e_sinal_modulado		
+Na modulação em amplitude (AM), a frequência da portadora varia conforme a mensagem?	Errado	_tipos_comuns_de_modulação		
+O SSB (Single Side Band) é uma variante da modulação AM muito utilizada em comunicações de longa distância em HF?	Certo	_tipos_comuns_de_modulação		
+Na modulação em frequência (FM), a amplitude da portadora permanece fixa enquanto a frequência varia?	Certo	_tipos_comuns_de_modulação		
+O código Morse é utilizado na modalidade de transmissão conhecida como CW (telegrafia)?	Certo	_tipos_comuns_de_modulação		
+Demodulação é o processo pelo qual o receptor extrai a mensagem do sinal modulado?	Certo	_demodulação		
+O batimento de frequências em circuitos não lineares pode gerar novas frequências que são a soma ou a diferença das originais?	Certo	_batimento_de_frequências		
+O frequencímetro é o instrumento específico utilizado para medir a frequência de um sinal?	Certo	_medição_de_frequência		
+Ondas de rádio podem se propagar pelo espaço livre sem a necessidade de um guia físico?	Certo	_meios_de_transmissão		
+Ondas espaciais são aquelas que sofrem refração ou reflexão na ionosfera, permitindo contatos a longa distância?	Certo	_ondas_terrestres_x_ondas_espaciais		
+A troposfera é a camada da atmosfera responsável pelas comunicações DX em HF?	Errado	_regiões_da_atmosfera_relevantes		
+A ionosfera localiza-se entre aproximadamente 60 km e 400 km de altitude?	Certo	_regiões_da_atmosfera_relevantes		
+A propagação por visada direta é o mecanismo predominante em frequências de VHF e UHF?	Certo	_faixa_de_frequência_x_mecanismo_predominante		
+Ondas de superfície seguem a curvatura da Terra e são típicas das faixas de LF e MF?	Certo	_faixa_de_frequência_x_mecanismo_predominante		
+A propagação em HF depende das camadas ionosféricas D, E e F?	Certo	_propagação_em_hf_330_mhz		
+A relação sinal-ruído (SNR) melhora quando a potência do ruído de fundo aumenta?	Errado	_relação_sinal_ruído_snr		
+Usar filtros de DSP no receptor é uma forma de melhorar a relação sinal-ruído?	Certo	_relação_sinal_ruído_snr		
+Antes de transmitir, o radioamador deve verificar se a frequência está livre para não causar interferência?	Certo	_princípio_básico		
+"Interferência conduzida é aquela em que a RF ""vaza"" pela antena e afeta outros aparelhos?"	Errado	_tipos_comuns		
+Testar o rádio usando uma bateria pode ajudar a identificar se a interferência está sendo conduzida pela rede elétrica?	Certo	_tipos_comuns		
+Operar com a menor potência necessária para manter a comunicação ajuda a reduzir interferências?	Certo	_boas_práticas_para_reduzir_interferências		
+O uso de filtros passa-baixas na saída do transmissor ajuda a reduzir a emissão de harmônicos?	Certo	_boas_práticas_para_reduzir_interferências		
+O alfabeto fonético internacional é utilizado para evitar mal-entendidos em comunicações com sinais fracos?	Certo	_padronização_por_que_é_necessária		
+"No alfabeto fonético, a letra ""G"" corresponde à palavra ""Germany""?"	Errado	_alfabeto_fonético_internacional		
+"O código ""QRA"" é usado para perguntar ou informar o nome da estação ou indicativo?"	Certo	_código_qprincipais_códigos_de_utilização		
+"""QTH"" refere-se à localização geográfica da estação?"	Certo	_código_qprincipais_códigos_de_utilização		
+"O código ""QSL"" significa que a mensagem não foi entendida?"	Errado	_código_qprincipais_códigos_de_utilização		
+"""QRM"" indica interferência causada por outras estações?"	Certo	_código_qprincipais_códigos_de_utilização		
+"Operação em ""QRP"" significa transmitir com potências elevadas, geralmente acima de 100W?"	Errado	_código_qprincipais_códigos_de_utilização		
+"O sinal ""CL"" no final de um QSO em CW indica que a estação está encerrando suas transmissões e saindo do ar?"	Certo	_código_qprincipais_códigos_de_utilização		
+O cartão QSL serve como prova formal de um contato realizado para fins de diplomas?	Certo	_qsl		
+Em radioamadorismo, a regra principal de ética é que o espectro é compartilhado e deve haver respeito mútuo?	Certo	_regra_principal		
+"É ético ""expulsar"" uma estação de uma frequência que ela já está ocupando se o seu sinal for mais forte?"	Errado	_antes_de_transmitir		
+"O uso do termo ""BREAK"" deve ser reservado para situações de emergência ou urgência, e não apenas para entrar em conversas comuns?"	Certo	_entrando_em_rodadas		
+Transmitir simultaneamente a outra estação na mesma frequência é um procedimento permitido?	Errado	_não_transmitir_por_cima		
+Em um pile-up, o operador deve fornecer seu indicativo de forma breve e objetiva?	Certo	_dx_pile_up_e_chamadas_dirigidas		
+Bate-papos locais de longa duração devem, preferencialmente, ser realizados em faixas de HF?	Errado	_boatos_críticas_e_conflitos		
+Propaganda política e anúncios de negócios são temas permitidos no serviço de radioamador?	Errado	_temas_a_evitar		
+Fernando de Noronha é considerada uma entidade DX distinta do Brasil continental?	Certo	_entidades_dx_do_brasil		
+Em situações de emergência, comunicações de socorro possuem prioridade absoluta sobre qualquer outro tráfego?	Certo	_prioridade_absoluta		
+"O termo ""BREAK BREAK"" é utilizado em situações de emergência para indicar tráfego prioritário?"	Certo	_uso_de_break_e_break_break		
+Ao ouvir um chamado de emergência, outros operadores devem continuar suas conversas normalmente para não desviar a atenção?	Errado	_uso_de_break_e_break_break		
+A conduta correta em emergências é ser claro, breve e objetivo nas comunicações?	Certo	_conduta_correta		
+A linha de transmissão ideal deve irradiar a maior quantidade possível de energia?	Errado	_função_da_antena_e_da_linha		
+O transceptor de rádio engloba tanto as funções de recepção quanto as de transmissão?	Certo	_conjunto_funcional_da_estação		
+O dielétrico de ar em cabos coaxiais é usado para aumentar as perdas em altas frequências?	Errado	_linhas_de_transmissão		
+ROE de 1:1 significa que toda a potência está sendo refletida de volta ao rádio?	Errado	_onda_estacionária_e_casamento_de_impedância		
+Uma antena vertical de 1/4 de onda é comum em estações móveis?	Certo	_comprimento_de_onda_e_tamanho_da_antena		
+Antenas direcionais possuem ganho superior em uma direção específica em detrimento de outras?	Certo	_ganho_e_diretividade		
+A faixa de frequências UHF é composta por ondas decimétricas?	Certo	_faixas_de_frequência_e_designações		
+A modulação SSB ocupa menos largura de banda que a modulação AM-DSB?	Certo		disable	sem correspondência
+A telegrafia (CW) utiliza o código Morse para transmitir informações?	Certo	_tipos_comuns_de_modulação		
+A propagação via ionosfera permite que sinais de rádio alcancem o outro lado do mundo através de saltos?	Certo	_propagação_em_hf_330_mhz		
+A troposfera é a camada mais baixa da atmosfera terrestre?	Certo	_regiões_da_atmosfera_relevantes		
+Harmônicos são frequências indesejadas que são múltiplos da frequência fundamental?	Certo	_boas_práticas_para_reduzir_interferências		
+"No código Q, ""QRV"" significa ""Estou pronto""?"	Certo	_código_qprincipais_códigos_de_utilização		
+"No código Q, ""QRT"" é um pedido para aumentar a potência?"	Errado	_código_qprincipais_códigos_de_utilização		
+"""QRP"" em CW refere-se geralmente a potências menores ou iguais a 5 Watts?"	Certo	_conteste_e_qrp		
+O indicativo de chamada é a identificação oficial do radioamador?	Certo		disable	da estação
+A Ilha da Trindade é considerada uma entidade DX brasileira?	Certo	_entidades_dx_do_brasil		
+Trotes e brincadeiras simulando emergências são proibidos e passíveis de punição?	Certo	_temas_a_evitar		
+O aterramento da estação ajuda a reduzir a interferência e aumenta a segurança?	Certo	_boas_práticas_para_reduzir_interferências		
+A antena Yagi é um exemplo de antena omnidirecional?	Errado	_ganho_e_diretividade		
+O radioamadorismo tem entre seus objetivos a instrução técnica e a comunicação voluntária em casos de desastres?	Certo			sem correspondência

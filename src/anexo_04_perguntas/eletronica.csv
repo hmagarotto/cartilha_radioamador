@@ -1,0 +1,100 @@
+Corrente elétrica é o movimento de cargas elétricas através de um condutor?	Certo	_grandezas_elétricas_fundamentais_tensão_corrente_resistência_e_potência		
+A unidade de medida da corrente elétrica é o volt (V)?	Errado	_grandezas_elétricas_fundamentais_tensão_corrente_resistência_e_potência		
+"Tensão elétrica é a ""força eletromotriz"" que provoca o movimento de cargas em um condutor?"	Certo	_grandezas_elétricas_fundamentais_tensão_corrente_resistência_e_potência		
+O eixo central das pilhas comuns, em forma de bastão, constitui o polo positivo e é feito de carvão?	Certo	_grandezas_elétricas_fundamentais_tensão_corrente_resistência_e_potência		
+Resistência elétrica é a facilidade que um material oferece à passagem de corrente?	Errado	_grandezas_elétricas_fundamentais_tensão_corrente_resistência_e_potência		
+A potência elétrica é medida em watt (W)?	Certo	_grandezas_elétricas_fundamentais_tensão_corrente_resistência_e_potência		
+Segundo a Lei de Ohm, a corrente é inversamente proporcional à resistência do circuito?	Certo	_lei_de_ohm		
+A fórmula da Lei de Ohm é V = I / R?	Errado	_lei_de_ohm		
+Em circuitos de corrente contínua, a potência pode ser calculada multiplicando-se a tensão pela corrente (P = V x I)?	Certo	_potência_elétrica_em_circuitos_cc		
+O efeito Joule explica a transformação de parte da energia elétrica em calor quando a corrente passa por uma resistência?	Certo	_efeito_joule_noções_básicas		
+A Lei das Tensões de Kirchhoff afirma que o somatório algébrico das tensões em uma malha fechada é igual a zero?	Certo	_leis_de_kirchhoff_correntes_e_tensões		
+A corrente contínua (CC) inverte periodicamente sua polaridade ao longo do tempo?	Errado	_noções_de_ca_e_tensão_alternada		
+A corrente alternada (CA) geralmente possui forma senoidal e inverte o sentido periodicamente?	Certo	_noções_de_ca_e_tensão_alternada		
+A reatância indutiva (XL) aumenta conforme a frequência do sinal aumenta?	Certo	_reatância_indutiva_xl_e_reatância_capacitiva_xc		
+A reatância capacitiva (XC) aumenta conforme a frequência do sinal aumenta?	Errado	_reatância_indutiva_xl_e_reatância_capacitiva_xc		
+Impedância é a oposição total à corrente alternada, combinando resistência e reatância?	Certo	_impedância_em_circuitos_ca		
+Para máxima transferência de sinal entre um amplificador e um alto-falante, busca-se o casamento de impedâncias?	Certo	_impedância_em_circuitos_ca		
+Em um capacitor ideal operando em CA, a corrente fica atrasada de 90° em relação à tensão?	Errado	_análise_de_circuitos_rc_e_rl_fase_entre_tensão_e_corrente		
+Em um indutor ideal operando em CA, a corrente fica atrasada de 90° em relação à tensão?	Certo	_análise_de_circuitos_rc_e_rl_fase_entre_tensão_e_corrente		
+A constante de tempo de um circuito RC é calculada pelo produto da resistência pela capacitância (τ = R.C)?	Certo	_análise_de_circuitos_rc_e_rl_fase_entre_tensão_e_corrente		
+A ressonância em um circuito RLC ocorre quando a reatância indutiva é igual à reatância capacitiva (XL = XC)?	Certo	_circuitos_rlc_e_ressonância		
+Na ressonância de um circuito série, a impedância total assume seu valor máximo?	Errado	_circuitos_rlc_e_ressonância		
+Corpos com cargas elétricas de mesmo sinal se atraem?	Errado	_cargas_elétricas_e_campo_elétrico_noções_básicas		
+Um campo magnético é produzido por cargas elétricas em movimento (corrente elétrica)?	Certo	_campo_magnético_origem_e_características		
+A intensidade do campo magnético de um eletroímã pode ser aumentada aumentando-se a intensidade da corrente?	Certo	_relação_entre_corrente_elétrica_e_campo_magnético		
+A Lei de Lenz afirma que o campo magnético gerado por uma corrente induzida se opõe à variação do campo que a gerou?	Certo	_relação_entre_corrente_elétrica_e_campo_magnético		
+A autoindutância é a propriedade de uma bobina de reagir à variação da própria corrente?	Certo	_indutância_e_sua_importância		
+Transformadores transferem energia entre enrolamentos através do fenômeno da indutância mútua?	Certo	_relação_entre_corrente_elétrica_e_campo_magnético		
+Resistores são componentes utilizados para armazenar grandes quantidades de energia elétrica?	Errado	_resistores_função_e_utilização		
+A cor da quarta faixa em um resistor de filme indica a sua tolerância?	Certo	_código_de_cores_de_resistores		
+Um resistor com as cores vermelha, verde e marrom possui o valor de 250 Ω?	Certo	_código_de_cores_de_resistores		
+Na associação de resistores em série, a resistência equivalente é a soma das resistências individuais?	Certo	_associação_de_resistores_em_série_e_em_paralelo		
+Na associação de resistores em paralelo, a resistência equivalente é sempre maior que a maior resistência do grupo?	Errado	_associação_de_resistores_em_série_e_em_paralelo		
+Quatro resistores de 16 Ω ligados em paralelo resultam em uma resistência equivalente de 4 Ω?	Certo	_associação_de_resistores_em_série_e_em_paralelo		
+O capacitor é um componente que armazena energia sob a forma de campo elétrico?	Certo	_capacitores_função_tipos_básicos_e_aplicações_simples		
+Uma das funções do capacitor é permitir a passagem de corrente contínua e bloquear a corrente alternada?	Errado	_capacitores_função_tipos_básicos_e_aplicações_simples		
+A capacitância depende da área das placas, da distância entre elas e do material dielétrico?	Certo	_capacitores_função_tipos_básicos_e_aplicações_simples		
+Indutores são medidos na unidade henry (H)?	Certo	_indutores_noção_de_indutância_e_aplicações_simples		
+Aumentar o número de espiras de um indutor diminui a sua indutância?	Errado	_indutores_noção_de_indutância_e_aplicações_simples		
+O diodo semicondutor conduz corrente em ambos os sentidos com a mesma facilidade?	Errado	_diodos_função_retificadora_e_usos_básicos		
+Um diodo pode ser usado como retificador para converter corrente alternada em corrente contínua pulsante?	Certo	_diodos_função_retificadora_e_usos_básicos		
+No transistor bipolar, uma pequena corrente de base pode controlar uma corrente maior no coletor?	Certo	_transistores_chaveamento_e_amplificação_noções		
+O ganho de corrente de um transistor é frequentemente representado pela letra grega beta (β)?	Certo	_transistores_chaveamento_e_amplificação_noções		
+Materiais condutores, como o cobre, possuem baixa resistividade e muitos portadores de carga livres?	Certo	_propriedades_dos_materiais_condutores_semicondutores_e_isolantes		
+Isolantes possuem uma grande lacuna de energia entre a banda de valência e a banda de condução?	Certo	_propriedades_dos_materiais_condutores_semicondutores_e_isolantes		
+O sentido convencional da corrente elétrica flui do polo negativo para o polo positivo?	Errado	_sentido_da_corrente_elétrica		
+O sentido real da corrente representa o movimento dos elétrons do polo negativo para o positivo?	Certo	_sentido_da_corrente_elétrica		
+Antenas dipolo montadas horizontalmente possuem polarização linear horizontal?	Certo	_tipos_básicos_e_polarização		
+A antena Yagi-Uda é um exemplo de antena composta por elementos diretivos e refletores?	Certo	_tipos_básicos_e_polarização		
+O multímetro é um instrumento que pode medir tensão, corrente e resistência?	Certo	_multímetro_funções_básicas		
+Para medir corrente, o multímetro deve ser conectado em paralelo com a carga?	Errado	_medição_de_corrente		
+Para medir tensão, o multímetro deve ser conectado em paralelo com o ponto do circuito desejado?	Certo	_medição_de_tensão		
+A medição de resistência deve ser feita com o circuito energizado para garantir a precisão?	Errado	_medição_de_resistência_e_continuidade		
+O wattímetro é o instrumento utilizado para medir a potência elétrica de um circuito?	Certo	_wattímetro		
+O medidor de ROE (SWR) serve para verificar o casamento de impedância entre o transmissor e a antena?	Certo	_medidor_de_ondas_estacionárias_roeswr		
+Modulações digitais tornam a transmissão mais resistente a ruídos em comparação com as analógicas?	Certo	_modulação_digital		
+Na modulação FSK (Frequency Shift Keying), a informação é representada por mudanças na frequência da portadora?	Certo	_modulação_digital		
+O sistema APRS permite a transmissão de dados de localização GPS em tempo real via rádio?	Certo	_redes_e_tecnologias_digitais		
+O Echolink é um sistema que permite a comunicação entre rádio e internet utilizando tecnologia VoIP?	Certo	_redes_e_tecnologias_digitais		
+No rádio definido por software (SDR), funções como filtragem e modulação são feitas via software?	Certo	_redes_e_tecnologias_digitais		
+O período (T) de uma onda é o inverso da sua frequência (T = 1 / f)?	Certo	_conceitos_de_onda_frequência_período_amplitude		
+Se a frequência de uma onda aumenta, o seu período também aumenta?	Errado	_conceitos_de_onda_frequência_período_amplitude		
+O valor eficaz (RMS) de uma onda senoidal é aproximadamente 0,707 vezes o valor de pico?	Certo	_valores_eficaz_máximo_e_médio		
+O valor pico-a-pico (Vpp) de uma onda senoidal é o dobro do seu valor de pico (Vp)?	Certo	_conceitos_de_onda_frequência_período_amplitude		
+O fenômeno da ressonância ocorre quando a frequência de excitação coincide com a frequência natural do sistema?	Certo	_oscilações_forçadas_excitação_e_amortecimento		
+Interferência construtiva ocorre quando duas ondas chegam em fase e suas amplitudes se subtraem?	Errado	_interferência_e_superposição		
+Uma onda estacionária é o resultado da superposição de uma onda incidente e uma onda refletida?	Certo	_ondas_estacionárias		
+Pontos de amplitude zero em uma onda estacionária são chamados de nós?	Certo	_ondas_estacionárias		
+Polarização circular é um caso especial de polarização elíptica onde o vetor campo elétrico descreve um círculo?	Certo	_polarização_de_ondas_eletromagnéticas		
+Fusíveis protegem os circuitos contra sobrecargas e curtos-circuitos ao interromperem a passagem da corrente?	Certo	_fusíveis		
+Um disjuntor é um dispositivo de proteção que, ao contrário do fusível, pode ser rearmado após atuar?	Certo	_disjuntores		
+O aterramento elétrico tem como um de seus objetivos a segurança do operador contra choques elétricos?	Certo	_aterramento_elétrico		
+Transistores podem ser usados em circuitos de RF como amplificadores de sinal?	Certo	_transistores_em_rf		
+A indutância mútua entre duas bobinas depende do coeficiente de acoplamento entre elas?	Certo	_indutância_e_sua_importância		
+Semicondutores como o silício têm suas propriedades controladas através de um processo chamado dopagem?	Certo	_propriedades_dos_materiais_condutores_semicondutores_e_isolantes		
+A unidade de medida da capacitância é o farad (F)?	Certo	_capacitores_função_tipos_básicos_e_aplicações_simples		
+Em um transformador, a energia é transferida por condução elétrica direta entre o primário e o secundário?	Errado	_relação_entre_corrente_elétrica_e_campo_magnético		
+A impedância é medida em ohms (Ω)?	Certo	_impedância_em_circuitos_ca		
+O valor médio de uma onda senoidal pura ao longo de um ciclo completo é diferente de zero?	Errado	_valores_eficaz_máximo_e_médio		
+A reatância indutiva é medida em henry?	Errado	_reatância_indutiva_xl_e_reatância_capacitiva_xc		
+Em circuitos CA, a potência aparente é medida em Volt-Ampère (VA)?	Certo	_potência_em_ca		
+O fator de potência em circuitos CA está relacionado ao cosseno do ângulo de fase entre tensão e corrente?	Certo	_potência_em_ca		
+Cargas de sinais opostos se repelem?	Errado	_cargas_elétricas_e_campo_elétrico_noções_básicas		
+A densidade de fluxo magnético é o número de linhas de força por unidade de área?	Certo	_relação_entre_corrente_elétrica_e_campo_magnético		
+Resistores de fio podem dissipar maiores potências que resistores de filme de carbono pequenos?	Certo		disable	sem correspondência
+Um capacitor bloqueia a passagem de corrente contínua após estar totalmente carregado?	Certo	_capacitores_função_tipos_básicos_e_aplicações_simples		sem correspondência direta
+O henry é a unidade de medida da indutância?	Certo	_indutores_noção_de_indutância_e_aplicações_simples		
+Junção PN é a estrutura básica que forma os diodos e transistores semicondutores?	Certo	_diodos_função_retificadora_e_usos_básicos		
+O ponto de operação estável de um transistor é conhecido como ponto Q?	Certo	_transistores_em_rf		
+Cobre e alumínio são exemplos de materiais isolantes?	Errado	_propriedades_dos_materiais_condutores_semicondutores_e_isolantes		
+Polarização vertical ocorre quando o campo elétrico oscila perpendicularmente ao solo?	Certo		disable	sem correspondência
+A função de continuidade no multímetro emite um sinal sonoro quando detecta um caminho de baixa resistência?	Certo	_medição_de_resistência_e_continuidade		
+Conectar um amperímetro em paralelo com uma fonte de tensão pode causar danos ao instrumento?	Certo	_medição_de_corrente		
+ASK é uma modulação digital baseada no deslocamento de amplitude da portadora?	Certo	_modulação_digital		
+PSK31 é um modo digital de banda estreita muito eficiente usado em HF?	Certo	_modulação_digital		
+A tecnologia SDR permite que um único hardware suporte diversos modos de modulação via software?	Certo	_redes_e_tecnologias_digitais		
+O valor de pico de uma tensão de 100V RMS é de aproximadamente 141V?	Certo	_valores_eficaz_máximo_e_médio		
+Interferência destrutiva ocorre quando as ondas chegam com uma diferença de fase de 180°?	Certo	_interferência_e_superposição		
+O dielétrico é o material isolante colocado entre as placas de um capacitor?	Certo	_capacitores_função_tipos_básicos_e_aplicações_simples		
+A lei de Ohm relaciona tensão, corrente e resistência em um circuito elétrico?	Certo	_lei_de_ohm		
