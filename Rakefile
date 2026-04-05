@@ -164,7 +164,7 @@ namespace :book do
     begin
         puts 'Removing generated files'
 
-        FileList[CONTRIBUTORS_FILE_NAME, 'cartilha_radioamador*.{html,epub,fb2.zip,mobi,pdf}'].each do |file|
+        FileList[CONTRIBUTORS_FILE_NAME, CONTRIBUTORS_VERSION_FILE_NAME, 'cartilha_radioamador*.{html,epub,fb2.zip,mobi,pdf}'].each do |file|
             rm file
 
             # Rescue if file not found
