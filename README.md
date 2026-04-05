@@ -2,6 +2,13 @@
 
 Este repositório contém o código-fonte e as ferramentas necessárias para gerar a **Cartilha do Serviço Radioamador** em diversos formatos digitais.
 
+## Conteúdo Original
+
+Este trabalho é uma reprodução adaptada da cartilha original da Anatel:
+**[Cartilha do Serviço Radioamador 2026-03.1](https://sistemas.anatel.gov.br/anexar-api/publico/anexos/download/6067372ab14ee1c9702eb7ff93f11323)**.
+
+Embora busquemos manter a precisão das informações, os textos oficiais da Anatel e a legislação vigente sempre prevalecem.
+
 ## Propósito do Repositório
 
 O objetivo deste projeto é fornecer uma versão digital, acessível e multi-plataforma da cartilha original da Anatel. Utilizando Asciidoc como linguagem de marcação, o conteúdo pode ser facilmente convertido para formatos como PDF, EPUB e HTML, facilitando o estudo e a consulta por futuros e atuais radioamadores.
@@ -58,13 +65,6 @@ O processo de build gera diferentes variantes do livro para atender a diferentes
 *   **`ext` (Extended)**: Uma versão estendida que inclui as correções (`fix`) e conteúdos adicionais ou funcionalidades extras.
 
 Os nomes dos arquivos seguirão o padrão `cartilha_radioamador_[variante].[extensão]` (exceto para a variante `default`, que não possui o sufixo no nome).
-
-## Conteúdo Original
-
-Este trabalho é uma reprodução adaptada da cartilha original da Anatel:
-**[Cartilha do Serviço Radioamador 2026-03.1](https://sistemas.anatel.gov.br/anexar-api/publico/anexos/download/6067372ab14ee1c9702eb7ff93f11323)**.
-
-Embora busquemos manter a precisão das informações, os textos oficiais da Anatel e a legislação vigente sempre prevalecem.
 
 ## Referência do Projeto
 
