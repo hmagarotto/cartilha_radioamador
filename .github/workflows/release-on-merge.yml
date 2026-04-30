@@ -37,7 +37,7 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         tag: ${{ steps.compute-tag.outputs.tagname }}
         commit: main
-        artifacts: 'cartilha_radioamador.epub,cartilha_radioamador.fb2.zip,cartilha_radioamador.html,cartilha_radioamador.mobi,cartilha_radioamador.pdf,cartilha_radioamador_ext.epub,cartilha_radioamador_ext.fb2.zip,cartilha_radioamador_ext.html,cartilha_radioamador_ext.mobi,cartilha_radioamador_ext.pdf,cartilha_radioamador_fix.epub,cartilha_radioamador_fix.fb2.zip,cartilha_radioamador_fix.html,cartilha_radioamador_fix.mobi,cartilha_radioamador_fix.pdf'
+        artifacts: 'cartilha_radioamador.epub,cartilha_radioamador.fb2.zip,cartilha_radioamador.html,cartilha_radioamador.mobi,cartilha_radioamador.pdf,cartilha_radioamador_ext.epub,cartilha_radioamador_ext.fb2.zip,cartilha_radioamador_ext.html,cartilha_radioamador_ext.mobi,cartilha_radioamador_ext.pdf'
 
     - name: Create public directory for gh-pages
       run: |
@@ -54,11 +54,6 @@ jobs:
             cartilha_radioamador_ext.html \
             cartilha_radioamador_ext.mobi \
             cartilha_radioamador_ext.pdf \
-            cartilha_radioamador_fix.epub \
-            cartilha_radioamador_fix.fb2.zip \
-            cartilha_radioamador_fix.html \
-            cartilha_radioamador_fix.mobi \
-            cartilha_radioamador_fix.pdf \
             public/
         cp  cartilha_radioamador_ext.html \
             public/index.html
