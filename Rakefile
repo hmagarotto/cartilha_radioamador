@@ -11,8 +11,9 @@ namespace :book do
   # Valor: Array de strings contendo as funcionalidades ou seções incluídas.
   VARIANTS = {
     "default" =>[],
-    "fix"     => ["fix"],
-    "ext"     => ["fix", "extended"],
+    # "fix"     => ["fix"],
+    # "ext"     => ["fix", "extended"],
+    "ext"     => ["extended"],
   }
 
   # Variables referenced for build

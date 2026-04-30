@@ -43,8 +43,8 @@ No transistor bipolar, uma pequena corrente de base pode controlar uma corrente 
 O ganho de corrente de um transistor é frequentemente representado pela letra grega beta (β)?	Certo	_transistores_chaveamento_e_amplificação_noções		
 Materiais condutores, como o cobre, possuem baixa resistividade e muitos portadores de carga livres?	Certo	_propriedades_dos_materiais_condutores_semicondutores_e_isolantes		
 Isolantes possuem uma grande lacuna de energia entre a banda de valência e a banda de condução?	Certo	_propriedades_dos_materiais_condutores_semicondutores_e_isolantes		
-O sentido convencional da corrente elétrica flui do polo negativo para o polo positivo?	Errado	_sentido_da_corrente_elétrica		
-O sentido real da corrente representa o movimento dos elétrons do polo negativo para o positivo?	Certo	_sentido_da_corrente_elétrica		
+O sentido convencional da corrente elétrica flui do polo negativo para o polo positivo?	Errado	_sentido_da_corrente_elétrica	disable	
+O sentido real da corrente representa o movimento dos elétrons do polo negativo para o positivo?	Certo	_sentido_da_corrente_elétrica	disable	
 Antenas dipolo montadas horizontalmente possuem polarização linear horizontal?	Certo	_tipos_básicos_e_polarização		
 A antena Yagi-Uda é um exemplo de antena composta por elementos diretivos e refletores?	Certo	_tipos_básicos_e_polarização		
 O multímetro é um instrumento que pode medir tensão, corrente e resistência?	Certo	_multímetro_funções_básicas		
